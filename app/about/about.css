@@ -1,0 +1,75 @@
+.aboutPage {
+    padding: 90px 60px;
+}
+.aboutPage h4{
+    color: white;
+}
+.aboutPage .hd {
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.aboutPage .hd h1 {
+    font-size: 65px;
+    font-weight: bolder;
+    z-index: 100;
+}
+
+.aboutPage .hd .title-bg {
+    color: white;
+    opacity: 0.3;
+    z-index: -10;
+    letter-spacing: 10px;
+    font-size: 150px;
+    position: absolute;
+    left: 29%;
+    top: -70px;
+}
+
+.aboutPage .info .list-title {
+    opacity: 0.6;
+}
+
+.aboutPage .info h4 {
+    color: white;
+}
+
+.aboutPage .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.aboutPage .boxes .box {
+    width: 40%;
+    border: 1px solid #ffffff66;
+    padding: 25px;
+    border-radius: 10px;
+    height: 200px;
+    
+}
+.aboutPage .boxes .box .count{
+    color: #fa5b0f;
+    font-size: 55px;
+}
+.aboutPage .boxes .box .count span{
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+}
+.aboutPage .boxes .box h4{
+    font-size: 25px;
+}
+.aboutPage .boxes .box .line{
+    content: "";
+    width:15%;
+    background: white;
+    height: 2px;
+    position: relative;
+    top: 10px;
+}
+.skillSection .spinner{
+    width:350px;
+}
