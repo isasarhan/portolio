@@ -20,8 +20,9 @@ export default function Home() {
               <div className="d-flex">
                 <div className="line me-4"></div>
                 <h1 className="text-white ">
-                  <span className="text-common d-block">I'M ISSA SERHAN.</span>
+                  <span className="text-common d-block ">I'M ISSA SERHAN.</span>
                   <TypeAnimation
+                  className='mb-2'
                     sequence={[
                       // Same substring at the start will only be typed out once, initially
                       'REACT DEVELOPER',
@@ -39,11 +40,11 @@ export default function Home() {
                     repeat={Infinity}
                   /></h1>
               </div>
-              <p className="text-white">I am a Lebanease based full stack developer focused on NextJS and NodeJS,
+              <p className="text-white mb-3">I am a Lebanease based full stack developer focused on NextJS and NodeJS,
                 I am passionate about building excellent software</p>
               <div className="d-flex">
                 <IconButton href={'/about'} icon={<ArrowForwardIcon />} text={'MORE ABOUT ME'} />
-                <IconButton href={'/about'} icon={<FileDownloadOutlinedIcon />} text={'DOWNLOAD CV'} />
+                <IconButton href={"/resume.pdf"} text={"DOWNLOAD CV"} icon={<FileDownloadOutlinedIcon />} download="cv" />
               </div>
             </div>
 

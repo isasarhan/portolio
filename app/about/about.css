@@ -4,7 +4,7 @@
 .aboutPage h4{
     color: white;
 }
-.aboutPage .hd {
+.hd {
     text-transform: uppercase;
     color: white;
     position: relative;
@@ -72,4 +72,7 @@
 }
 .skillSection .spinner{
     width:350px;
+}
+.divider{
+    height: 80px;
 }
