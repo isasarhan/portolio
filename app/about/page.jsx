@@ -14,8 +14,8 @@ const About = () => {
       <section className="aboutPage">
         <div className="container-fluid">
           <div className="hd text-center">
-            <h1>ABOUT <span className='text-common'>ME</span></h1>
             <span className='title-bg'>RESUME</span>
+            <h1>ABOUT <span className='text-common'>ME</span></h1>
           </div>
           {/* personal information section starts here */}
           <div className="row">
@@ -24,7 +24,7 @@ const About = () => {
                 personal information
               </h3>
               <div className="row h-100">
-                <div className="col ">
+                <div className="col">
                   <h4 className='mb-4'><span className='list-title'>First Name: </span>Issa </h4>
                   <h4 className='mb-4'><span className='list-title'>Last Name: </span>Serhan</h4>
                   <h4 className='mb-4'><span className='list-title'>Age: </span>26</h4>
@@ -48,7 +48,6 @@ const About = () => {
                     <h4>YEARS OF EXPERIENCE</h4>
                   </div>
                 </div>
-
                 <div className="box">
                   <span className="count d-flex">10<span className='top-0'>+</span></span>
                   <div className='d-flex'>
@@ -82,7 +81,7 @@ const About = () => {
             <div className='text-center mt-3 mb-5'>
               <h1 className='text-white'>SKILL LEVEL</h1>
             </div>
-            <div className="row mb-5">
+            <div className="row">
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
                 <CircularProgressbar className='w-50' value={80} maxValue={100} text={`${80}%`} styles={buildStyles({
                   textSize: '16px',
@@ -91,7 +90,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>JAVASCRIPT</h4>
+                <h4 className='mt-2  mb-5'>JAVASCRIPT</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
                 <CircularProgressbar className='w-50' value={90} maxValue={100} text={`${90}%`} styles={buildStyles({
@@ -101,7 +100,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>HTML</h4>
+                <h4 className='mt-2 mb-5'>HTML</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
                 <CircularProgressbar className='w-50' value={50} maxValue={100} text={`${50}%`} styles={buildStyles({
@@ -111,7 +110,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>FLUTTER</h4>
+                <h4 className='mt-2 mb-5'>FLUTTER</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
                 <CircularProgressbar className='w-50' value={70} maxValue={100} text={`${70}%`} styles={buildStyles({
@@ -121,7 +120,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>REACT</h4>
+                <h4 className='mt-2 mb-5'>REACT</h4>
               </div>
             </div>
             <div className="row mb-5">
@@ -133,7 +132,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>NODEJS</h4>
+                <h4 className='mt-2 mb-5'>NODEJS</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
                 <CircularProgressbar className='w-50' value={70} maxValue={100} text={`${70}%`} styles={buildStyles({
@@ -143,7 +142,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>CSS</h4>
+                <h4 className='mt-2 mb-5'>CSS</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
                 <CircularProgressbar className='w-50' value={60} maxValue={100} text={`${60}%`} styles={buildStyles({
@@ -154,7 +153,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>WORDPRESS</h4>
+                <h4 className='mt-2 mb-5'>WORDPRESS</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
                 <CircularProgressbar className='w-50' value={50} maxValue={100} text={`${50}%`} styles={buildStyles({
@@ -164,7 +163,7 @@ const About = () => {
                   trailColor: '#595959',
                   backgroundColor: '#3e98c7',
                 })} />
-                <h4 className='mt-2'>GIT</h4>
+                <h4 className='mt-2 mb-5'>GIT</h4>
               </div>
             </div>
           </div>

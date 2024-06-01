@@ -3,7 +3,7 @@
   padding: 0%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 body {
   background: #111111;
@@ -45,8 +45,8 @@ body {
 .homePage .imageWrap {
   position: relative;
   background: #000;
-  height: 500px;
-  width: 100%;
+  height: max-content;
+  width: 90%;
   bottom: 0;
   overflow: hidden;
   border-radius: 40px;
@@ -59,21 +59,98 @@ body {
 .homePage .wrapper p {
   font-size: 20px;
   line-height: 35px;
-  width:90%;
+  width: 90%;
   font-weight: 300;
   opacity: 0.5;
 }
 
 .homePage .intro {
-  padding: 45px 50px;
+  padding: 45px 40px;
 
 }
 
 .homePage .intro .line {
   background: #fa5b0f;
   height: 7px;
-  width: 100px;
+  width: 80px;
   border-radius: 10px;
   position: relative;
   top: 30px;
+}
+
+.hd {
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  margin-bottom: 130px;
+}
+
+.hd h1 {
+  font-size: 65px;
+  font-weight: bolder;
+  z-index: 100;
+}
+
+.hd .title-bg {
+  color: white;
+  opacity: 0.3;
+  z-index: -10;
+  letter-spacing: 7px;
+  font-size: 150px;
+  position: absolute;
+  left: 29%;
+  top: -70px;
+}
+
+@media (max-width: 768px) {
+  .hd h1 {
+    font-size: 55px;
+  }
+  .hd .title-bg {
+    font-size: 40px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+  }
+  .homePage .intro {
+    padding: 45px 0px;
+  
+  }
+  .homePage {
+    overflow: visible;
+    height: min-content;
+  }
+
+  .homePage .intro h1 {
+    font-size: 35px;
+
+  }
+
+  .typeAnimation {
+    font-size: 10px;
+  }
+
+  .homePage .wrapper p {
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .homePage .intro .line {
+
+    width: 0px;
+
+  }
+
+  .homePage::before {
+    height: 100%;
+    transform: rotate(15deg)
+  }
+
+  .homePage .imageWrap {
+    width: 100%;
+
+  }
+  .animated-text h1 {
+    font-size: 35px !important;
+  }
 }
