@@ -1,0 +1,95 @@
+.contactPage {
+    padding: 90px 60px;
+}
+.contactPage .info{
+    margin: 20px 0px;
+}
+
+.contactPage .form input:hover {
+    border: 1px solid #fff;
+}
+
+.contactPage .form input:focus {
+    border: 1px solid #fff;
+    outline: none;
+    border-color: #fa5b0f;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contactPage .form input {
+    width: 100%;
+    padding: 16px;
+    padding-left: 25px;
+    border: none;
+    background: #232323;
+    border-radius: 30px;
+    color: white;
+    margin: 20px 0px;
+    caret-color: #fff;
+}
+.contactPage .form textarea:hover {
+    border: 1px solid #fff;
+}
+
+.contactPage .form textarea:focus {
+    border: 1px solid #fff;
+    outline: none;
+    border-color: #fa5b0f;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.contactPage .form textarea {
+    color: white;
+    caret-color: #fff;
+    width: 100%;
+    margin: 10px 0px;
+    height: 200px;
+    padding: 16px;
+    border: none;
+    background: #232323;
+    border-radius: 30px;
+}
+.contactPage .socialMedia .icon:hover svg{
+    color: #000;
+}
+.contactPage .socialMedia .icon:hover{
+    background: #fff;
+}
+.contactPage .socialMedia .icon{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #282727;
+    height: 50px;
+    width: 50px;
+}
+.contactPage .socialMedia svg{
+    color: white;
+    font-size: 30px;
+}
+.info p{
+    width: 90%;
+    line-height: 25px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+.iconList .details h5{
+    opacity: 0.8;
+}
+.iconList .details{
+    font-size: 19px;
+}
+.iconList .icon svg{
+    font-size: 45px;
+    color: #fa5b0f;
+}
+@media (max-width: 768px) {
+    .contactPage{
+        padding: 90px 10px;
+
+    }
+    .contactPage .form input {
+        padding: 16px;
+        margin: 10px 0px;
+    }
+} 

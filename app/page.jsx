@@ -45,7 +45,7 @@ export default function Home() {
               <p className="text-white mb-4">I am a Lebanease based full stack developer focused on NextJS and NodeJS,
                 I am passionate about building excellent software</p>
               <div className="d-flex  align-items-center">
-                  <IconButton href={'/about'} icon={<ArrowForwardIcon />} text={'MORE ABOUT ME'} />
+                  <IconButton href={'/about'} icon={<ArrowForwardIcon />} text={'ABOUT ME'} />
                   <IconButton href={"/resume.pdf"} text={"DOWNLOAD CV"} icon={<FileDownloadOutlinedIcon />} download="cv" />
 
               </div>
