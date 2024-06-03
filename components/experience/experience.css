@@ -1,36 +1,40 @@
-
-.experienceSection .experience:hover .icon{
+.experienceSection .experience:hover .icon {
     background: rgba(190, 187, 187, 0.696);
 }
-.experienceSection .experience .title{
+
+.experienceSection .experience .title {
     margin: 0%;
 }
+
 .experienceSection .experience {
     height: max-content;
     margin: 15px;
     width: 100%;
 }
 
-.experienceSection .experience .date{
+.experienceSection .experience .date {
     background: #4342429f;
     border-radius: 15px;
-    width: fit-content; 
+    width: fit-content;
     padding: 2px 7px;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.713);
 }
-.experienceSection .experience .location{
+
+.experienceSection .experience .location {
     opacity: 1;
     letter-spacing: 3px;
     font-weight: 700;
     color: #fa5b0f;
-} 
-.experienceSection .experience .company{
+}
+
+.experienceSection .experience .company {
     font-size: 20px;
     text-transform: uppercase;
     opacity: 0.7;
 }
-.experienceSection .experience .icon::after{
+
+.experienceSection .experience .icon::after {
     content: "";
     position: absolute;
     width: 2px;
@@ -39,17 +43,19 @@
     background: rgba(190, 187, 187, 0.696);
 
 }
-.experienceSection .experience .icon{
+
+.experienceSection .experience .icon {
     position: relative;
     background-color: #fa5b0f;
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    padding: 9px ;
+    padding: 10px;
     margin-right: 15px;
 
 }
-.experienceSection .experience .icon svg{
+
+.experienceSection .experience .icon svg {
     color: white;
     font-size: 28px !important;
 }

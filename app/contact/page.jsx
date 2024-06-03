@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import { useForm } from 'react-hook-form'
 import './contact.css'
 import SendIcon from '@mui/icons-material/Send';
 import IconButton from '../../components/IconButton/iconButton'
@@ -10,15 +9,22 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { useForm, ValidationError } from '@formspree/react';
+
 const Contact = () => {
-  const {
-    register,
-    formState: { errors },
-    handleSubmit,
-  } = useForm()
-
-  const onSubmit = (data) => console.log(data)
-
+  const [state, handleSubmit] = useForm("mnqekvyw");
+  if (state.succeeded) {
+    return (
+      <section className="contactPage" >
+        <div className="container-fluid ">
+          <div className="hd text-center m-auto d-flex justify-content-center align-items-center flex-column " style={{height:'80vh'}}>
+            <h2 className='text-white'>Thank you for your Message</h2>
+            <br />
+            <IconButton icon={<SendIcon />} text={'BACK HOME'} href='/' />
+          </div>
+        </div>
+      </section>)
+  }
   return (
     <section className="contactPage">
       <div className="container-fluid">
@@ -49,41 +55,51 @@ const Contact = () => {
                 </div>
               </div>
               <div className="socialMedia d-flex align-items-center mt-4 gap-3">
-                 <span className='icon'> <FacebookOutlinedIcon /></span>
-                 <span className='icon'> <WhatsAppIcon /></span>
-                 <span className='icon'> <InstagramIcon /></span>
-                 <span className='icon'> <LinkedInIcon /></span>
+                <span className='icon'> <FacebookOutlinedIcon /></span>
+                <span className='icon'> <WhatsAppIcon /></span>
+                <span className='icon'> <InstagramIcon /></span>
+                <span className='icon'> <LinkedInIcon /></span>
               </div>
             </div>
           </div>
           <div className="col-sm-8">
-            <form action="" onSubmit={handleSubmit(onSubmit)}>
+            <form action="https://formspree.io/f/mnqekvyw" onSubmit={handleSubmit} method='POST'>
               <div className="row form">
                 <div className="col-sm-4">
                   <div class=" mb-3">
-                    <input type="text" placeholder='first name' {...register("firstName")} />
+                    <input id="firstName" type="text" name="firstName" placeholder='first name' />
                   </div>
                 </div>
 
                 <div className="col-sm-4">
                   <div class=" mb-3">
-                    <input type="text" placeholder='last name'{...register("lastName")} />
+                    <input id="lastName" type="text" name="lastName" placeholder='last name' />
                   </div>
                 </div>
 
                 <div className="col-sm-4">
                   <div class=" mb-3">
-                    <input type="email" placeholder='email address' {...register("email")} />
+                    <input id="email" type="email" name="email" placeholder='email address' />
+                    <ValidationError
+                      prefix="Email"
+                      field="email"
+                      errors={state.errors}
+                    />
                   </div>
                 </div>
 
                 <div className="col-sm-12">
                   <div class=" mb-3">
-                    <textarea placeholder='message' {...register("message")} />
+                    <textarea id="message" name="message" placeholder='message' />
+                    <ValidationError
+                      prefix="Message"
+                      field="message"
+                      errors={state.errors}
+                    />
                   </div>
                 </div>
               </div>
-              <IconButton icon={<SendIcon />} text={'SEND MESSAGE'} type="submit" />
+              <IconButton icon={<SendIcon />} text={'SEND MESSAGE'} type="submit" disabled={state.submitting} />
             </form>
           </div>
         </div>
