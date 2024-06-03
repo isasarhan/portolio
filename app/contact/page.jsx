@@ -17,7 +17,7 @@ const Contact = () => {
     return (
       <section className="contactPage" >
         <div className="container-fluid ">
-          <div className="hd text-center m-auto d-flex justify-content-center align-items-center flex-column " style={{height:'80vh'}}>
+          <div className="hd text-center m-auto d-flex justify-content-center align-items-center flex-column " style={{ height: '80vh' }}>
             <h2 className='text-white'>Thank you for your Message</h2>
             <br />
             <IconButton icon={<SendIcon />} text={'BACK HOME'} href='/' />
@@ -36,8 +36,8 @@ const Contact = () => {
           <div className="col-sm-4">
             <div className="info text-white">
               <h1 className='mb-3 fw-bolder'>Don't be shy!</h1>
-              <p className=''>Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
-                Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.</p>
+              <p className=''>I would love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel free to get in touch using the form below or through any of my social media channels.
+                Your message is important to me, and I will respond as promptly as possible.</p>
               <div className="iconList d-flex flex-column gap-4">
                 <div className="iconItem d-flex align-items-end">
                   <div className="icon me-3"><EmailIcon /></div>
