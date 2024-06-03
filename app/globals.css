@@ -11,7 +11,7 @@ body {
 }
 
 .container-fluid {
-  padding: 0px 50px;
+  padding: 10px 50px;
 }
 
 .homePage {
@@ -101,25 +101,30 @@ body {
   left: 25%;
   top: -70px;
 }
-.designer{
+
+.designer {
   right: 20px;
   bottom: 10px;
   opacity: 0.5;
 }
+
 @media (max-width: 768px) {
   .hd h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
+
   .hd .title-bg {
-    font-size: 40px;
+    font-size: 35px;
     left: 0px;
     position: relative;
     top: 0px;
   }
+
   .homePage .intro {
     padding: 45px 0px;
-  
+
   }
+
   .homePage {
     overflow: visible;
     height: min-content;
@@ -149,6 +154,10 @@ body {
 
   }
 
+  .container-fluid {
+    padding: 90px 35px;
+  }
+
   .homePage::before {
     height: 100%;
     transform: rotate(15deg)
@@ -158,13 +167,18 @@ body {
     width: 100%;
 
   }
+
   .animated-text h1 {
     font-size: 35px !important;
   }
-  .designer{
+
+  .designer {
     position: fixed !important;
     bottom: 2%;
     left: 12%;
     margin: 0px !important;
+  }
+  .iconBox{
+    justify-content: center;
   }
 }

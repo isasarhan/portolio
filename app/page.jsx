@@ -46,7 +46,7 @@ export default function Home() {
                 I have over three years of experience as a WordPress developer, focusing on website development and customization. Now
                 transitioning to Next.js and Node.js, I aim to leverage modern technologies for scalable and efficient web applications.</p>
               <p></p>
-              <div className="d-flex align-items-center ">
+              <div className="d-flex align-items-center iconBox">
                 <IconButton href={'/about'} icon={<ArrowForwardIcon />} text={'ABOUT ME'} />
                 <IconButton href={"/resume.pdf"} text={"DOWNLOAD CV"} icon={<FileDownloadOutlinedIcon />} download="cv" />
               </div>
