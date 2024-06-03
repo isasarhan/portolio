@@ -1,6 +1,9 @@
 .aboutPage {
     padding: 90px 60px;
 }
+.aboutPage .hd .title-bg {
+    left: 29%;
+}
 .aboutPage h4{
     color: white;
 }
@@ -70,5 +73,8 @@
     }
     .experienceSection .row{
         margin: 0px !important;
+    }
+    .aboutPage .hd .title-bg {
+        left: 0;
     }
 }

@@ -1,6 +1,9 @@
 .portfolioPage {
     padding: 90px 60px;
 }
+.portfolioPage .hd .title-bg {
+    left: 30%;
+}
 .portfolioPage h4{
     color: white;
 }
@@ -59,4 +62,8 @@
         padding: 90px 10px;
 
     }
+    .portfolioPage .hd .title-bg {
+        left: 0;
+    }
+
 }

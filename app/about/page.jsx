@@ -7,6 +7,12 @@ import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import WorkIcon from '@mui/icons-material/Work';
 import Experience from '../../components/experience/experience';
+import VerifiedIcon from '@mui/icons-material/Verified';
+import { FaWordpressSimple } from "react-icons/fa";
+import { FaCode } from "react-icons/fa6";
+import { FaNodeJs } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { SiUdemy } from "react-icons/si";
 
 const About = () => {
   return (
@@ -171,18 +177,18 @@ const About = () => {
           {/* experience section starts here */}
           <div className="experienceSection">
             <div className='mt-3 mb-5'>
-              <h1 className='text-white text-center mb-5'>EXPERIENCE AND EDUCATION</h1>
+              <h1 className='text-white text-center mb-5 text-uppercase'>EXPERIENCE & PROJECTS</h1>
               <div className="row">
                 <div className="col-sm-6">
-                  <Experience company={'SCANDSTER'} date={'2018 - PRESENT'} title={'WORDPRESS DEVELOPER'}
-                    icon={<WorkIcon />}>
+                  <Experience company={'Double Seven Agency'} date={'Sep 2023 – Feb-2024'} title={'WORDPRESS DEVELOPER'}
+                    icon={<FaWordpressSimple />} location={"Saudi Arabia (Remote)"}>
                     Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
                     Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
                   </Experience>
                 </div>
                 <div className='col-sm-6'>
-                  <Experience company={'SCANDSTER'} date={'2018 - PRESENT'} title={'WORDPRESS DEVELOPER'}
-                    icon={<WorkIcon />}>
+                  <Experience company={'Blue-boost'} date={'Aug 2022 - May 2023'} title={'WORDPRESS DEVELOPER'}
+                    icon={<FaWordpressSimple />} location={"Lebanon (Remote)"}>
                     Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
                     Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
                   </Experience>
@@ -190,20 +196,60 @@ const About = () => {
               </div>
               <div className="row mt-5">
                 <div className="col-sm-6">
-                  <Experience company={'SCANDSTER'} date={'2018 - PRESENT'} title={'WORDPRESS DEVELOPER'}
-                    icon={<WorkIcon />}>
+                  <Experience company={'Rise Holding Group'} date={'Feb 2020 - Jul 2022'} title={'WORDPRESS DEVELOPER'}
+                    icon={<FaWordpressSimple />} location={'Toronto, Canada  (Remote)'}>
                     Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
                     Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
                   </Experience>
                 </div>
                 <div className='col-sm-6'>
-                  <Experience company={'SCANDSTER'} date={'2018 - PRESENT'} title={'WORDPRESS DEVELOPER'}
-                    icon={<WorkIcon />}>
+                  <Experience company={'SCANDSTER'} date={'Jan 2021 - Aug 2022'} title={'WORDPRESS DEVELOPER'}
+                    icon={<FaWordpressSimple />} location={'Beirut, Lebanon (Remote)'}>
                     Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
                     Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
                   </Experience>
                 </div>
               </div>
+            </div>
+
+
+            <div className='mt-3 mb-5'>
+              <h1 className='text-white text-center mb-5 text-uppercase'>EDUCATION & Certifications</h1>
+              <div className="row">
+                <div className="col-sm-6">
+                  <Experience company={' Bachelor’s Degree'} date={'2022'} title={'COMPUTER SCIENCE'}
+                    icon={<FaCode />} location={"Lebanese University, Beirut, Lebanon"}>
+                    Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
+                    Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
+                  </Experience>
+                </div>
+                <div className='col-sm-6'>
+                  <Experience company={'LinkedIn'} date={'2023'} title={'NODE JS'}
+                    icon={<FaLinkedin />} location={"Certifications"}>
+                    1-Building RESTful APIS node & express /
+                    <span className='text-common'> 2-Advanced Express / </span>
+                    3-Advanced Nodejs /
+                    <span className='text-common'> 4-NodeJs Design Patterns / </span>
+                    5-Building a website with node & express /
+                    <span className='text-common'> 6-Databases for Nodejs</span>
+                  </Experience>
+                </div>
+                <div className='col-sm-6 '>
+                  <Experience company={'Mosh Hamedani'} date={'2023'} title={'REACT JS - NODE JS'}
+                    icon={<VerifiedIcon />} location={"Certifications"}>
+                    Node.js Course - <span className='text-common'>(15hrs)</span> <br />
+                    Mastering React Course - <span className='text-common'>(13hrs) </span>
+                  </Experience>
+                </div>
+                <div className='col-sm-6 '>
+                  <Experience company={'Udemy'} date={'2023 - 2024'} title={'WORDPRESS - FLUTTER'}
+                    icon={<SiUdemy />} location={"Certifications"}>
+                    Become a WordPress Developer: Unlocking Power With Code - <span className='text-common'>By Brad Schiff (40+ hrs)</span> <br />
+                    Flutter & Dart - The Complete Guide [2024 Edition] - <span className='text-common'>By Maximilian Schwarzmüller (30 hrs)</span> <br />
+                  </Experience>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>

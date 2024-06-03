@@ -37,14 +37,14 @@ const Contact = () => {
                   <div className="icon me-3"><EmailIcon /></div>
                   <div className="details">
                     <h5 className='m-0'>Mail ME</h5>
-                    <span>isasarhan.lz@gmail.com</span>
+                    <span><a className='text-decoration-none text-white' href="mailto:isasarhan.lz@gmail.com">isasarhan.lz@gmail.com</a></span>
                   </div>
                 </div>
                 <div className="iconItem d-flex align-items-end">
                   <div className="icon me-3"><PhoneIcon /></div>
                   <div className="details">
-                    <h5 className='m-0'>Mail ME</h5>
-                    <span>isasarhan.lz@gmail.com</span>
+                    <h5 className='m-0'> Phone Number</h5>
+                    <span><a className='text-decoration-none text-white' href="tel:0096170958117">+961 70 956 227</a></span>
                   </div>
                 </div>
               </div>
