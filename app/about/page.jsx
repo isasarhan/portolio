@@ -5,7 +5,6 @@ import IconButton from '../../components/IconButton/iconButton'
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import WorkIcon from '@mui/icons-material/Work';
 import Experience from '../../components/experience/experience';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import { FaWordpressSimple } from "react-icons/fa";
@@ -13,6 +12,7 @@ import { FaCode } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { SiUdemy } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -177,8 +177,29 @@ const About = () => {
           {/* experience section starts here */}
           <div className="experienceSection">
             <div className='mt-3 mb-5'>
-              <h1 className='text-white text-center mb-5 text-uppercase'>EXPERIENCE & PROJECTS</h1>
+              <h1 className='text-white text-center mb-5 text-uppercase'>PROJECTS</h1>
               <div className="row">
+                <div className="col-sm-6">
+                  <Experience company={'REACTJS'} date={'2023 – 2024'} title={'NEXT-JS'}
+                    icon={<FaReact />} location={"Personal Projects"}>
+                    1-Gold Factory Management System <br />
+                    2-Ecommerce<br />
+                    3-Personal Portfolio <br />
+                    4-Ecommerce Admin Dashboard
+
+                  </Experience>
+                </div>
+                <div className='col-sm-6'>
+                  <Experience company={'API'} date={'Aug 2022 - May 2023'} title={'NODE-JS'}
+                    icon={<FaNodeJs />} location={"Personal Projects"}>
+                    1-Gold Factory Management System API <br />
+                    2-Ecommerce API
+                  </Experience>
+                </div>
+              </div>
+              <hr className="dotted" />
+              <h1 className='text-white text-center mb-5 text-uppercase'>EXPERIENCE</h1>
+              <div className="row mt-5">
                 <div className="col-sm-6">
                   <Experience company={'Double Seven Agency'} date={'Sep 2023 – Feb-2024'} title={'WORDPRESS DEVELOPER'}
                     icon={<FaWordpressSimple />} location={"Saudi Arabia (Remote)"}>
@@ -194,6 +215,7 @@ const About = () => {
                   </Experience>
                 </div>
               </div>
+
               <div className="row mt-5">
                 <div className="col-sm-6">
                   <Experience company={'Rise Holding Group'} date={'Feb 2020 - Jul 2022'} title={'WORDPRESS DEVELOPER'}
@@ -211,8 +233,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-
+            <hr className="dotted" />
             <div className='mt-3 mb-5'>
               <h1 className='text-white text-center mb-5 text-uppercase'>EDUCATION & Certifications</h1>
               <div className="row">
