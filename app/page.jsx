@@ -21,7 +21,7 @@ export default function Home() {
                 <div className="line me-4"></div>
                 <h1 className="text-white ">
                   <span className="text-common d-block ">I'M ISSA SERHAN.</span>
-                  <div className="animated-text">
+                  <div className="animated-text position-relative">
                     <TypeAnimation
                       className='mb-2 typeAnimation'
                       sequence={[

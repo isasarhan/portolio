@@ -178,9 +178,9 @@ hr.dotted {
   }
 
   .designer {
-    position: fixed !important;
-    bottom: 2%;
-    left: 12%;
+    position: relative !important;
+    bottom: 0%;
+    
     margin: 0px !important;
   }
 

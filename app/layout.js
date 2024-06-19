@@ -9,11 +9,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
       </body>
-      <footer>
-        <div className='text-white ms-auto position-absolute designer'>
-          this website was designed by Issa Serhan using Next JS
-        </div>
-      </footer>
+     
     </html>
   );
 }
