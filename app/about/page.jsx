@@ -3,8 +3,6 @@ import React from 'react'
 import './about.css'
 import IconButton from '../../components/IconButton/iconButton'
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 import Experience from '../../components/experience/experience';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import { FaWordpressSimple } from "react-icons/fa";
@@ -12,7 +10,13 @@ import { FaCode } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { SiUdemy } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { RiFlutterFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -85,90 +89,47 @@ const About = () => {
           {/* skill section section starts here */}
           <div className="skillSection">
             <div className='text-center mt-3 mb-5'>
-              <h1 className='text-white'>SKILL LEVEL</h1>
+              <h1 className='text-white'>SKILLS</h1>
             </div>
             <div className="row">
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={80} maxValue={100} text={`${80}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+
+                <IoLogoJavascript className='languageIcon' />
                 <h4 className='mt-2  mb-5'>JAVASCRIPT</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={90} maxValue={100} text={`${90}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+                <FaHtml5 className='languageIcon' />
                 <h4 className='mt-2 mb-5'>HTML</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={50} maxValue={100} text={`${50}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+
+                <RiFlutterFill className='languageIcon' />
                 <h4 className='mt-2 mb-5'>FLUTTER</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={70} maxValue={100} text={`${70}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+                <FaReact className='languageIcon' />
                 <h4 className='mt-2 mb-5'>REACT</h4>
               </div>
             </div>
             <div className="row mb-5">
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={80} maxValue={100} text={`${80}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+
+                <FaNodeJs className='languageIcon' />
                 <h4 className='mt-2 mb-5'>NODEJS</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={70} maxValue={100} text={`${70}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+
+                <FaCss3Alt className='languageIcon' />
                 <h4 className='mt-2 mb-5'>CSS</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={60} maxValue={100} text={`${60}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  pathTransitionDuration: 0.5,
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+
+                <FaWordpress className='languageIcon' />
                 <h4 className='mt-2 mb-5'>WORDPRESS</h4>
               </div>
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
-                <CircularProgressbar className='w-50' value={50} maxValue={100} text={`${50}%`} styles={buildStyles({
-                  textSize: '16px',
-                  textColor: '#fff',
-                  pathColor: '#fa5b0f',
-                  trailColor: '#595959',
-                  backgroundColor: '#3e98c7',
-                })} />
+
+                <FaGitAlt className='languageIcon' />
                 <h4 className='mt-2 mb-5'>GIT</h4>
               </div>
             </div>
