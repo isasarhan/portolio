@@ -22,7 +22,7 @@ const Portfolio = () => {
               <Image src={'/images/projects/e-commerce-1.jpg'} width={300} height={200} />
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center '>
-                  <IconButton><Link href={''} > <FaEye /></Link></IconButton>
+                  <IconButton><Link href={'https://ecommerce-ui-hv4l.vercel.app/'} > <FaEye /></Link></IconButton>
                   <IconButton><Link href={'https://github.com/isasarhan/ecommerce-ui'}> <FaGithub /></Link></IconButton>
                   <IconButton><FaInfoCircle /></IconButton>
                 </div>
