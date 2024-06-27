@@ -164,15 +164,21 @@ const About = () => {
                 <div className="col-sm-6">
                   <Experience company={'Double Seven Agency'} date={'Sep 2023 – Feb-2024'} title={'WORDPRESS DEVELOPER'}
                     icon={<FaWordpressSimple />} location={"Saudi Arabia (Remote)"}>
-                    Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
-                    Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
+                    • Enhanced website functionalities by developing custom Elementor Pro widgets from scratch using PHP,
+                    JavaScript, and HTML.
+                    • Streamlined electronic transactions by integrating the Nafath API into websites to ensure compliance with laws.
+                    • Developed real estate, travel tourism, event management, architect, and marketing websites using WordPress.
+                    • Contributed to meeting client expectations by participating in online calls to gather accurate requirements.
+                    • Migrated multiple websites, including hosting, domain names, and over 100GB of email data.
                   </Experience>
                 </div>
                 <div className='col-sm-6'>
                   <Experience company={'Blue-boost'} date={'Aug 2022 - May 2023'} title={'WORDPRESS DEVELOPER'}
                     icon={<FaWordpressSimple />} location={"Lebanon (Remote)"}>
-                    Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
-                    Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
+                    • Boosted company profitability by developing 4 e-commerce websites and customizing 6 others, including
+                    amendments and adding new features using contact form 7, booking appointment plugins, and Elementor Pro.
+                    • Enabled secure online transactions by integrating PayPal and Stripe payment gateways into 3 websites.
+                    • Maintained data and security by performing monthly backups and security checks for 10 websites.
                   </Experience>
                 </div>
               </div>
@@ -181,15 +187,14 @@ const About = () => {
                 <div className="col-sm-6">
                   <Experience company={'Rise Holding Group'} date={'Feb 2020 - Jul 2022'} title={'WORDPRESS DEVELOPER'}
                     icon={<FaWordpressSimple />} location={'Toronto, Canada  (Remote)'}>
-                    Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
-                    Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
+                    • Created 4 e-commerce websites by collaborating with a team of 7 developers from different countries, gathering
+                    client requirements, optimizing SEO, and writing codes to sort and rename a huge number of images.
                   </Experience>
                 </div>
                 <div className='col-sm-6'>
                   <Experience company={'SCANDSTER'} date={'Jan 2021 - Aug 2022'} title={'WORDPRESS DEVELOPER'}
                     icon={<FaWordpressSimple />} location={'Beirut, Lebanon (Remote)'}>
-                    Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
-                    Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
+                    • Crafted academic, marketing, and marble company websites from start to finish, and amended other websites.
                   </Experience>
                 </div>
               </div>
@@ -201,8 +206,7 @@ const About = () => {
                 <div className="col-sm-6">
                   <Experience company={' Bachelor’s Degree'} date={'2022'} title={'COMPUTER SCIENCE'}
                     icon={<FaCode />} location={"Lebanese University, Beirut, Lebanon"}>
-                    Ten the hastened steepest feelings pleasant few surprise property.An brother he do colonel against minutes uncivil.
-                    Can how elinor warmly mrs basket marked. Led raising expense yet demesne weather musical.
+
                   </Experience>
                 </div>
                 <div className='col-sm-6'>
