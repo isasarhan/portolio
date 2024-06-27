@@ -43,7 +43,7 @@ const Contact = () => {
                   <div className="icon me-3"><EmailIcon /></div>
                   <div className="details">
                     <h5 className='m-0'>Mail ME</h5>
-                    <span><a className='text-decoration-none text-white' href="mailto:isasarhan.lz@gmail.com">isasarhan.lz@gmail.com</a></span>
+                    <span><a className='text-decoration-none text-white' href="mailto:issa-sarhan@hotmail.com">issa-sarhan@hotmail.com</a></span>
                   </div>
                 </div>
                 <div className="iconItem d-flex align-items-end">
