@@ -43,7 +43,7 @@ const About = () => {
                 </div>
                 <div className="col ">
                   <h4 className='mb-4'><span className='list-title'>Phone: </span>+96170958117</h4>
-                  <h4 className='mb-4'><span className='list-title'>Email: </span>isasarhan.lz@gmail.com</h4>
+                  <h4 className='mb-4'><span className='list-title'>Email: </span>issa-sarhan@hotmail.com</h4>
                   <h4 className='mb-4'><span className='list-title'>Languages: </span>Arabic, English</h4>
                   <h4 className='mb-4'><span className='list-title'>Nationality: </span>Lebanese</h4>
                 </div>
