@@ -2,12 +2,37 @@
   margin: 0%;
   padding: 0%;
 }
+:root {
+  --dark-background:#344649;
+  --dark-color: #2B6E7C;
+  --light-color: #B1D0CA;
+  --dark-text: #000;
+  --light-text: #fff;
+}
 
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 body {
-  background: #111111;
   font-family: 'Raleway', 'san-serif';
+  transition: all 0.3s ease-in-out;
+}
+
+body.light .text-color {
+  color: #000;
+}
+
+body.dark .text-color {
+  color: white !important;
+}
+
+body.light {
+  background-color: white;
+  color: #111111;
+}
+
+body.dark {
+  background:#000;
+  color: white !important;
 }
 
 .container-fluid {
@@ -26,6 +51,14 @@ hr.dotted {
   overflow: hidden;
 }
 
+body.dark .homePage::before {
+  background-color: #fa5b0f;
+}
+
+body.light .homePage::before {
+  background-color: #FFCC9F;
+}
+
 .homePage::before {
   content: "";
   width: 30%;
@@ -34,7 +67,6 @@ hr.dotted {
   height: 200%;
   z-index: -10;
   position: absolute;
-  background-color: #fa5b0f;
   transform: rotate(-19deg)
 }
 
@@ -43,8 +75,14 @@ hr.dotted {
   padding: 45px 0px;
 }
 
-.text-common {
+/* light orange #FFCC9F */
+
+body.dark .text-common {
   color: #fa5b0f;
+}
+
+body.light .text-common {
+  color: #FFCC9F;
 }
 
 .homePage .imageWrap {
@@ -69,13 +107,21 @@ hr.dotted {
   opacity: 0.5;
 }
 
+body.dark .line {
+  background: #fa5b0f;
+}
+
+body.light .line {
+  background: #FFCC9F;
+}
+
 .homePage .intro {
   padding: 45px 40px;
 
 }
 
 .homePage .intro .line {
-  background: #fa5b0f;
+
   height: 7px;
   width: 80px;
   border-radius: 10px;
@@ -83,11 +129,19 @@ hr.dotted {
   top: 30px;
 }
 
+body.dark .hd {
+  color: white;
+}
+
+body.light .hd {
+  color: #000;
+}
+
 .hd {
   text-transform: uppercase;
-  color: white;
   position: relative;
   margin-bottom: 130px;
+  transition: all 0.3s ease-in-out;
 }
 
 .hd h1 {
@@ -96,8 +150,16 @@ hr.dotted {
   z-index: 100;
 }
 
-.hd .title-bg {
+body.dark .hd .title-bg {
   color: white;
+}
+
+body.light .hd .title-bg {
+  color: #000;
+}
+
+.hd .title-bg {
+
   opacity: 0.2;
   z-index: -10;
   letter-spacing: 7px;
@@ -180,7 +242,7 @@ hr.dotted {
   .designer {
     position: relative !important;
     bottom: 0%;
-    
+
     margin: 0px !important;
   }
 

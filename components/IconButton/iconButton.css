@@ -1,56 +1,91 @@
+body.dark .button-common {
+  color: #fff;
+}
+
+body.light .button-common {
+
+  color: #000;
+}
+
+body.dark .button-common {
+  border: 1px solid #fa5b0f;
+}
+
+body.light .button-common {
+
+  border: 1px solid #FFCC9F;
+}
+
+body.dark .button-common .icon {
+  background: #fa5b0f;
+}
+
+body.light .button-common .icon {
+  background: #FFCC9F;
+
+}
 
 .button-common {
-    position: relative;
-    border-radius: 80px;
-    border: 1px solid #fa5b0f;
-    color: #fff;
-    padding: 16px 25px;
-  }
-  
-  .button-common .iconText {
-    padding-right: 5px;
-  }
-  .button-common .icon svg {
-    color: white;
-    font-size: 33px;
-  }
-  
-  .icon-btn {
-    padding-right: 60px !important;
-    overflow: hidden;
-  }
-  
-  .icon-btn::after {
-    position: absolute;
-    height: 100%;
-    right: 0%;
-    background: #fa5b0f;
-    content: "";
-    width: 0%;
-    z-index: -10;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .icon-btn:hover::after {
-    width: 100%;
-  }
-  
-  .button-common .icon {
-    border-radius: 50%;
-    padding: 12px;
-    background: #fa5b0f;
-    position: absolute;
-    right: 0%;
+  position: relative;
+  border-radius: 80px;
+  padding: 16px 25px;
+}
+
+.button-common .iconText {
+  padding-right: 5px;
+}
+
+.button-common .icon svg {
+  color: white;
+  font-size: 33px;
+}
+
+.icon-btn {
+  padding-right: 60px !important;
+  overflow: hidden;
+}
+
+body.dark .icon-btn::after {
+  background: #fa5b0f;
+}
+
+body.light .icon-btn::after {
+  background: #FFCC9F;
+}
+
+.icon-btn::after {
+  position: absolute;
+  height: 100%;
+  right: 0%;
+
+  content: "";
+  width: 0%;
+  z-index: -10;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-btn:hover::after {
+  width: 100%;
+}
+
+.button-common .icon {
+  border-radius: 50%;
+  padding: 12px;
+  background: #fa5b0f;
+  position: absolute;
+  right: 0%;
+}
+
+@media (max-width: 768px) {
+  .button-common {
+    padding: 15px 20px;
   }
 
-  @media (max-width: 768px) {
-    .button-common {
-      padding: 15px 20px;
-    }
-    .button-common .iconText{
-      font-size: 14px !important;
-    }
-    .button-common .icon svg {
-      font-size: 30px;
-    }
+  .button-common .iconText {
+    font-size: 14px !important;
   }
+
+  .button-common .icon svg {
+    font-size: 30px;
+  }
+}

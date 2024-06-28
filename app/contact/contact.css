@@ -16,13 +16,17 @@
     border-color: #fa5b0f;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
-
+body.dark .contactPage .form input{
+    background: #232323;
+}
+body.light .contactPage .form input{
+    background: #fff;
+}
 .contactPage .form input {
     width: 100%;
     padding: 16px;
     padding-left: 25px;
-    border: none;
-    background: #232323;
+    border: 1px solid #000;
     border-radius: 30px;
     color: white;
     margin: 20px 0px;
@@ -38,6 +42,12 @@
     border-color: #fa5b0f;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+body.dark .contactPage .form textarea{
+    background: #232323;
+}
+body.light .contactPage .form textarea{
+    background: #fff;
+}
 .contactPage .form textarea {
     color: white;
     caret-color: #fff;
@@ -45,7 +55,7 @@
     margin: 10px 0px;
     height: 200px;
     padding: 16px;
-    border: none;
+    border: 1px solid #000;
     background: #232323;
     border-radius: 30px;
 }
@@ -83,9 +93,14 @@
 .iconList .details{
     font-size: 19px;
 }
-.iconList .icon svg{
+
+body.dark .iconList .icon svg{
     font-size: 45px;
     color: #fa5b0f;
+}
+body.light .iconList .icon svg{
+    font-size: 45px;
+    color: #FFCC9F;
 }
 .contactPage .button-common .icon svg {
     transform: rotate(-20deg);

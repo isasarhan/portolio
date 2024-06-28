@@ -18,7 +18,7 @@ const Contact = () => {
       <section className="contactPage" >
         <div className="container-fluid ">
           <div className="hd text-center m-auto d-flex justify-content-center align-items-center flex-column " style={{ height: '80vh' }}>
-            <h2 className='text-white'>Thank you for your Message</h2>
+            <h2 className='text-color'>Thank you for your Message</h2>
             <br />
             <IconButton icon={<SendIcon />} text={'BACK HOME'} href='/' />
           </div>
@@ -34,7 +34,7 @@ const Contact = () => {
         </div>
         <div className='row'>
           <div className="col-sm-4">
-            <div className="info text-white">
+            <div className="info text-color">
               <h1 className='mb-3 fw-bolder'>Don't be shy!</h1>
               <p className=''>I would love to hear from you! Whether you have a question, a project idea, or just want to say hello, feel free to get in touch using the form below or through any of my social media channels.
                 Your message is important to me, and I will respond as promptly as possible.</p>
@@ -43,14 +43,14 @@ const Contact = () => {
                   <div className="icon me-3"><EmailIcon /></div>
                   <div className="details">
                     <h5 className='m-0'>Mail ME</h5>
-                    <span><a className='text-decoration-none text-white' href="mailto:issa-sarhan@hotmail.com">issa-sarhan@hotmail.com</a></span>
+                    <span><a className='text-decoration-none text-color' href="mailto:issa-sarhan@hotmail.com">issa-sarhan@hotmail.com</a></span>
                   </div>
                 </div>
                 <div className="iconItem d-flex align-items-end">
                   <div className="icon me-3"><PhoneIcon /></div>
                   <div className="details">
                     <h5 className='m-0'> Phone Number</h5>
-                    <span><a className='text-decoration-none text-white' href="tel:0096170958117">+961 70 956 227</a></span>
+                    <span><a className='text-decoration-none text-color' href="tel:0096170958117">+961 70 956 227</a></span>
                   </div>
                 </div>
               </div>

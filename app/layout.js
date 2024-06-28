@@ -1,15 +1,21 @@
+import Navbar from "../components/nav/navbar";
+import { ThemeContext, ThemeProvider } from '../context/ThemeContext';
+import { useContext } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./globals.css";
-import Navbar from "../components/nav/navbar";
+
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en" className='position-relative'>
-      <Navbar />
-      <body>
-        {children}
-      </body>
-     
+      <ThemeProvider>
+        <body>
+          <Navbar  />
+          {children}
+        </body>
+      </ThemeProvider>
+
     </html>
   );
 }

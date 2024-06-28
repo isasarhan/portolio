@@ -16,7 +16,7 @@ const Portfolio = () => {
             <span className='title-bg'>WORKS</span>
             <h1>MY <span className='text-common'>PORTFOLIO</span></h1>
           </div>
-          <h1 className='text-center text-white'>FRONT-<span className='text-common'>END</span> (NextJS)</h1>
+          <h1 className='text-center text-color'>FRONT-<span className='text-common'>END</span> (NextJS)</h1>
           <div className="boxWrapper">
             <div className="box">
               <Image src={'/images/projects/e-commerce-1.jpg'} width={300} height={200} />
@@ -64,7 +64,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <h1 className='text-center text-white'>BACK-<span className='text-common'>END</span> (NodeJS)</h1>
+          <h1 className='text-center text-color'>BACK-<span className='text-common'>END</span> (NodeJS)</h1>
           <div className="boxWrapper">
             <div className="box">
               <Image src={'/images/projects/jewelry.jpg'} width={300} height={200} />

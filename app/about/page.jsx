@@ -30,7 +30,7 @@ const About = () => {
           {/* personal information section starts here */}
           <div className="row">
             <div className="col-md-6 info">
-              <h3 className='text-white text-uppercase mb-5'>
+              <h3 className='text-color text-uppercase mb-5'>
                 personal information
               </h3>
               <div className="row h-100">
@@ -89,7 +89,7 @@ const About = () => {
           {/* skill section section starts here */}
           <div className="skillSection">
             <div className='text-center mt-3 mb-5'>
-              <h1 className='text-white'>SKILLS</h1>
+              <h1 className='text-color'>SKILLS</h1>
             </div>
             <div className="row">
               <div className='col-md-3 d-flex justify-content-center align-items-center flex-column'>
@@ -138,7 +138,7 @@ const About = () => {
           {/* experience section starts here */}
           <div className="experienceSection">
             <div className='mt-3 mb-5'>
-              <h1 className='text-white text-center mb-5 text-uppercase'>PROJECTS</h1>
+              <h1 className='text-color text-center mb-5 text-uppercase'>PROJECTS</h1>
               <div className="row">
                 <div className="col-sm-6">
                   <Experience company={'REACTJS'} date={'2023 – 2024'} title={'NEXT-JS'}
@@ -159,7 +159,7 @@ const About = () => {
                 </div>
               </div>
               <hr className="dotted" />
-              <h1 className='text-white text-center mb-5 text-uppercase'>EXPERIENCE</h1>
+              <h1 className='text-color text-center mb-5 text-uppercase'>EXPERIENCE</h1>
               <div className="row mt-5">
                 <div className="col-sm-6">
                   <Experience company={'Double Seven Agency'} date={'Sep 2023 – Feb-2024'} title={'WORDPRESS DEVELOPER'}
@@ -201,7 +201,7 @@ const About = () => {
             </div>
             <hr className="dotted" />
             <div className='mt-3 mb-5'>
-              <h1 className='text-white text-center mb-5 text-uppercase'>EDUCATION & Certifications</h1>
+              <h1 className='text-color text-center mb-5 text-uppercase'>EDUCATION & Certifications</h1>
               <div className="row">
                 <div className="col-sm-6">
                   <Experience company={' Bachelor’s Degree'} date={'2022'} title={'COMPUTER SCIENCE'}

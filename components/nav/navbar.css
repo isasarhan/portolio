@@ -1,26 +1,26 @@
-.navbar {
+.appnavbar {
     position: fixed;
     top: 30%;
     right: 1%;
     z-index: 1000;
 }
-.navbar ul li{
+.appnavbar ul li{
     position: relative;
     height: 75px;
 }
-.navbar svg {
+.appnavbar svg {
     color: white;
     font-size: 30px !important;
 }
 
-.navbar button.icon-btn {
+.appnavbar button.icon-btn {
     width: 55px;
     height: 55px;
     min-width: 45px !important;
     padding: 0% !important;
 }
 
-.navbar .button-common {
+.appnavbar .button-common {
     position: absolute;
     right: 0%;
     top: 0%;
@@ -28,17 +28,17 @@
     margin: 5px 0px;
 }
 
-.navbar .button-common .iconText {
+.appnavbar .button-common .iconText {
     visibility: hidden;
 }
-.navbar button.icon-btn:hover .iconText {
+.appnavbar button.icon-btn:hover .iconText {
     visibility: inherit;
     padding-right: 15px;
 }
 
-.navbar button.icon-btn:hover {
+.appnavbar button.icon-btn:hover {
     width: 200px !important;
 }
-.navbar .icon{
+.appnavbar .icon{
     padding: 10px;
 }

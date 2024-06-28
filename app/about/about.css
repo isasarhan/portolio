@@ -4,15 +4,21 @@
 .aboutPage .hd .title-bg {
     left: 29%;
 }
-.aboutPage h4{
+body.dark .aboutPage h4{
     color: white;
+}
+body.light .aboutPage h4{
+    color: #000;
 }
 .aboutPage .info .list-title {
     opacity: 0.6;
 }
 
-.aboutPage .info h4 {
+body.dark .aboutPage .info h4 {
     color: white;
+}
+body.light .aboutPage .info h4 {
+    color: #000;
 }
 
 .aboutPage .boxes {
@@ -21,16 +27,27 @@
     gap: 30px;
 }
 
+body.dark .aboutPage .boxes .box {
+    border: 1px solid #ffffff66;
+}
+body.light .aboutPage .boxes .box {
+    border: 1px solid #000000a3;
+}
 .aboutPage .boxes .box {
     width: 40%;
-    border: 1px solid #ffffff66;
     padding: 25px;
     border-radius: 10px;
     height: 200px;
     
 } 
-.aboutPage .boxes .box .count{
+body.dark .count {
     color: #fa5b0f;
+}
+body.light .count{
+    
+    color: #FFCC9F;
+}
+.aboutPage .boxes .box .count{
     font-size: 55px;
 }
 .aboutPage .boxes .box .count span{
@@ -38,9 +55,13 @@
     top: 10px;
     font-size: 30px;
 }
-.aboutPage .languageIcon{
+body.dark .aboutPage .languageIcon{
     font-size: 80px;
     color: white;
+}
+body.light .aboutPage .languageIcon{
+    font-size: 80px;
+    color: #000;
 }
 .aboutPage .boxes .box h4{
     font-size: 25px;
