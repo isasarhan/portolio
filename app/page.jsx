@@ -21,7 +21,7 @@ export default function Home() {
                 <div className="line me-4"></div>
                 <h1 className="text-color ">
                   <span className="text-common d-block ">I'M ISSA SERHAN.</span>
-                  {/* <div className="animated-text position-relative">
+                  <div className="animated-text position-relative">
                     <TypeAnimation
                       className='mb-2 typeAnimation'
                       sequence={[
@@ -39,7 +39,7 @@ export default function Home() {
                       speed={50}
                       style={{ fontSize: '70px', display: 'inline-block' }}
                       repeat={Infinity}
-                    /></div> */}
+                    /></div>
                 </h1>
               </div>
               <p className="text-color mb-4">I am a Lebanease based full stack developer focused on NextJS and NodeJS,
