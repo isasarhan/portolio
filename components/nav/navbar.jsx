@@ -9,12 +9,12 @@ import { ThemeContext } from '../../context/ThemeContext';
 import { FiSun } from "react-icons/fi";
 import { FaMoon } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({className}) => {
 
     const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
-        <nav className='appnavbar'>
+        <nav className={`${className} appnavbar`}>
             <ul className='nav flex-column '>
                 <li className='nav-item'>
                     <IconButton href={"/"} text={"Home"} icon={<HomeIcon />} />

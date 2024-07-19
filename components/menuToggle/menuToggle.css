@@ -1,0 +1,38 @@
+.menuIcon {
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    
+}
+body.light .menuIcon{
+    background: #EFEFEF;
+
+}
+body.dark .menuIcon{
+    background: #efefef42;
+
+}
+.menuIcon .iconMenu svg{
+    margin: 15px;
+}
+.menuIcon .iconMenu {
+    position: relative;
+    font-size: 30px;
+
+}
+body.dark .menuIcon .iconMenu svg {
+    color: white;
+
+}
+body.light .menuIcon .iconMenu svg {
+    color: var(--light-color);
+
+}

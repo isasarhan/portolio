@@ -25,15 +25,10 @@ export default function Home() {
                     <TypeAnimation
                       className='mb-2 typeAnimation'
                       sequence={[
-                        // Same substring at the start will only be typed out once, initially
-                        'REACT DEVELOPER',
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'NODE DEVELOPER',
-                        1000,
-                        'WORDPRESS DEVELOPER',
-                        1000,
-                        'FLUTTER DEVELOPER',
-                        1000
+                        'REACT DEVELOPER', 1000,
+                        'NODE DEVELOPER', 1000,
+                        'WORDPRESS DEVELOPER', 1000,
+                        'FLUTTER DEVELOPER', 1000
                       ]}
                       wrapper="h1"
                       speed={50}
@@ -47,11 +42,11 @@ export default function Home() {
                 transitioning to Next.js and Node.js, I aim to leverage modern technologies for scalable and efficient web applications.</p>
               <p></p>
               <div className="d-flex align-items-center iconBox">
-                <IconButton href={'/about'} icon={<ArrowForwardIcon />} text={'ABOUT ME'} />
-                <IconButton href={"/resume.pdf"} text={"DOWNLOAD CV"} icon={<FileDownloadOutlinedIcon />} download="cv" />
+                <IconButton href={'/about'} icon={<ArrowForwardIcon />} text={'ABOUT'} />
+                <IconButton href={"/resume.pdf"} text={"RESUME"} icon={<FileDownloadOutlinedIcon />} download="cv" />
               </div>
             </div>
-          
+
           </div>
         </div>
       </section>

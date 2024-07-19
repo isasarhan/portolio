@@ -43,7 +43,10 @@
 
 }
 .portfolioPage .boxWrapper .box h4{
-    bottom: 20px;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    
 }
 .portfolioPage .boxWrapper .box{
     width: 30%;

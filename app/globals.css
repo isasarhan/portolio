@@ -3,11 +3,11 @@
   padding: 0%;
 }
 :root {
-  --dark-background:#344649;
-  --dark-color: #2B6E7C;
-  --light-color: #B1D0CA;
-  --dark-text: #000;
-  --light-text: #fff;
+  --dark-color:#07679D;
+  --dark-background: #090909;
+  --dark-text: #fff;
+  --light-color: #3394cc;
+  --light-text: #000;
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
@@ -21,6 +21,9 @@ body.light .text-color {
   color: #000;
 }
 
+body.dark .card {
+  background:var(--dark-background);
+}
 body.dark .text-color {
   color: white !important;
 }
@@ -31,7 +34,7 @@ body.light {
 }
 
 body.dark {
-  background:#000;
+  background:var(--dark-background);
   color: white !important;
 }
 
@@ -46,17 +49,18 @@ hr.dotted {
 
 .homePage {
   width: 100%;
+  padding:  0px 35px;
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
 body.dark .homePage::before {
-  background-color: #fa5b0f;
+  background-color: var(--dark-color);
 }
 
 body.light .homePage::before {
-  background-color: #FFCC9F;
+  background-color: var(--light-color);
 }
 
 .homePage::before {
@@ -75,14 +79,14 @@ body.light .homePage::before {
   padding: 45px 0px;
 }
 
-/* light orange #FFCC9F */
+/* light orange var(--light-color) */
 
 body.dark .text-common {
-  color: #fa5b0f;
+  color: var(--dark-color);
 }
 
 body.light .text-common {
-  color: #FFCC9F;
+  color: var(--light-color);
 }
 
 .homePage .imageWrap {
@@ -108,11 +112,11 @@ body.light .text-common {
 }
 
 body.dark .line {
-  background: #fa5b0f;
+  background: var(--dark-color);
 }
 
 body.light .line {
-  background: #FFCC9F;
+  background: var(--light-color);
 }
 
 .homePage .intro {
@@ -157,15 +161,15 @@ body.dark .hd .title-bg {
 body.light .hd .title-bg {
   color: #000;
 }
-
+.hd .pageTitle{
+  font-size: 90px;
+}
 .hd .title-bg {
 
-  opacity: 0.2;
+  opacity: 0.3;
   z-index: -10;
   letter-spacing: 7px;
   font-size: 150px;
-  position: absolute;
-  left: 25%;
   top: -70px;
 }
 
@@ -180,20 +184,18 @@ body.light .hd .title-bg {
     font-size: 45px;
   }
 
-  .hd .title-bg {
+  /* .hd .title-bg {
     font-size: 35px;
-    left: 0px;
+   
     position: relative;
     top: 0px;
+  } */
+  .hd .pageTitle{
+    font-size: 50px;
   }
-
-  .homePage .intro {
-    padding: 45px 0px;
-
-  }
-
   .homePage {
     overflow: visible;
+    padding: 35px 0px;
     height: min-content;
   }
 
@@ -222,7 +224,7 @@ body.light .hd .title-bg {
   }
 
   .container-fluid {
-    padding: 90px 35px;
+    padding: 90px 30px;
   }
 
   .homePage::before {
@@ -248,5 +250,6 @@ body.light .hd .title-bg {
 
   .iconBox {
     justify-content: center;
+
   }
 }

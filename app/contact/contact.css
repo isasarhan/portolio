@@ -13,7 +13,7 @@
 .contactPage .form input:focus {
     border: 1px solid #fff;
     outline: none;
-    border-color: #fa5b0f;
+    border-color: var(--dark-color);
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 body.dark .contactPage .form input{
@@ -28,7 +28,7 @@ body.light .contactPage .form input{
     padding-left: 25px;
     border: 1px solid #000;
     border-radius: 30px;
-    color: white;
+    color: var(--light-color);
     margin: 20px 0px;
     caret-color: #fff;
 }
@@ -39,7 +39,7 @@ body.light .contactPage .form input{
 .contactPage .form textarea:focus {
     border: 1px solid #fff;
     outline: none;
-    border-color: #fa5b0f;
+    border-color: var(--dark-color);
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 body.dark .contactPage .form textarea{
@@ -88,7 +88,7 @@ body.light .contactPage .form textarea{
     opacity: 0.8;
 }
 .iconList .details span:hover a{
-    color: #fa5b0f !important;
+    color: var(--dark-color) !important;
 }
 .iconList .details{
     font-size: 19px;
@@ -96,11 +96,11 @@ body.light .contactPage .form textarea{
 
 body.dark .iconList .icon svg{
     font-size: 45px;
-    color: #fa5b0f;
+    color: var(--dark-color);
 }
 body.light .iconList .icon svg{
     font-size: 45px;
-    color: #FFCC9F;
+    color: var(--light-color);
 }
 .contactPage .button-common .icon svg {
     transform: rotate(-20deg);

@@ -2,7 +2,7 @@
     padding: 90px 60px;
 }
 .aboutPage .hd .title-bg {
-    left: 29%;
+    
 }
 body.dark .aboutPage h4{
     color: white;
@@ -41,11 +41,11 @@ body.light .aboutPage .boxes .box {
     
 } 
 body.dark .count {
-    color: #fa5b0f;
+    color: var(--dark-color);
 }
 body.light .count{
     
-    color: #FFCC9F;
+    color: var(--light-color);
 }
 .aboutPage .boxes .box .count{
     font-size: 55px;

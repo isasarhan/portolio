@@ -1,0 +1,85 @@
+[
+  {
+    "id": 0,
+    "name": "Ecommerce Dashboard",
+    "description": "An efficient eCommerce admin dashboard built with Next.js, Bootstrap, and custom CSS. This platform provides administrators with real-time data management, intuitive navigation, and responsive design. Utilizing Next.js for enhanced performance and scalability, Bootstrap for a consistent and flexible layout, and custom CSS for tailored styling, the dashboard ensures smooth and effective management of products, orders, and customers.",
+    "technologies": ["bootstrap", "react", "next", "css"],
+    "url": "",
+    "repository": "",
+    "status": "development",
+    "featuredImg": "/images/projects/e-commerce-dashboard-1.jpg",
+    "images": [
+      "/images/projects/e-commerce-dashboard-1.jpg",
+      "/images/projects/e-commerce-dashboard-2.jpg",
+      "/images/projects/e-commerce-dashboard-3.jpg",
+      "/images/projects/e-commerce-dashboard-4.jpg"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Ecommerce UI",
+    "description": "An online store created with Next.js, Bootstrap, and  CSS. This platform gives shoppers a smooth experience with quick, server-side rendered pages, a design that adapts to different screens, and good-looking UI parts. It uses Next.js to boost performance and SEO, Bootstrap to make sure the layout stays consistent and flexible, and custom CSS to add a unique brand feel.",
+    "technologies": ["bootstrap", "react", "next", "css"],
+    "url": "",
+    "repository": "",
+    "status": "development",
+    "featuredImg": "/images/projects/e-commerce-1.jpg",
+    "images": [
+      "/images/projects/e-commerce-1.jpg",
+      "/images/projects/e-commerce-2.jpg",
+      "/images/projects/e-commerce-3.jpg",
+      "/images/projects/e-commerce-4.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Gold Lab Management System",
+    "description": "A powerful jewelry manufacturing lab dashboard built with Next.js, Bootstrap, and custom CSS, designed to manage customer receipts, payments, inventory, suppliers, and balances. Connected to an API for real-time data retrieval, this platform ensures efficient and accurate administration of lab operations. Utilizing Next.js for enhanced performance, Bootstrap for a responsive and consistent layout, and custom CSS for unique styling, the dashboard offers a seamless and user-friendly experience.",
+    "technologies": ["bootstrap", "react", "next", "css"],
+    "url": "",
+    "repository": "",
+    "status": "production",
+    "featuredImg": "/images/projects/management-system.jpg",
+    "images": [
+      "/images/projects/management-system.jpg",
+      "/images/projects/management-system-2.jpg",
+      "/images/projects/management-system-3.jpg",
+      "/images/projects/management-system-4.jpg",
+      "/images/projects/management-system-5.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Gold Lab Management System API",
+    "description": "A secure REST API for a jewelry manufacturing lab, built with Node.js, MongoDB, and Express, and protected with JWT authentication. This API facilitates efficient management of customer receipts, payments, inventory, suppliers, and balances, ensuring real-time data retrieval. Leveraging Node.js for robust performance, MongoDB for flexible and scalable data storage, and Express for streamlined routing, this API provides a reliable backend solution for comprehensive lab operations management.",
+    "technologies": ["node", "express", "mongodb", "REST-API", "jwt"],
+    "url": "",
+    "repository": "",
+    "status": "production",
+    "featuredImg": "/images/projects/management-system.jpg",
+    "images": [
+      "/images/projects/management-system.jpg",
+      "/images/projects/management-system-2.jpg",
+      "/images/projects/management-system-3.jpg",
+      "/images/projects/management-system-4.jpg",
+      "/images/projects/management-system-5.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "E-commerce API",
+    "description": "A secure eCommerce API built with Node.js, Express, and MongoDB, protected with JWT authentication. This API enables efficient management of products, orders, customers, and payments, ensuring robust and scalable backend services. Leveraging Node.js for high performance, MongoDB for flexible data storage, and Express for streamlined routing, the API guarantees secure and seamless data transactions with JWT-based authentication, safeguarding user information and ensuring authorized access.",
+    "technologies": ["bootstrap", "react", "next", "css"],
+    "url": "",
+    "repository": "",
+    "status": "production",
+    "featuredImg": "/images/projects/management-system.jpg",
+    "images": [
+      "/images/projects/management-system.jpg",
+      "/images/projects/management-system-2.jpg",
+      "/images/projects/management-system-3.jpg",
+      "/images/projects/management-system-4.jpg",
+      "/images/projects/management-system-5.jpg"
+    ]
+  }
+]

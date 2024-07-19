@@ -23,9 +23,8 @@ const About = () => {
     <>
       <section className="aboutPage">
         <div className="container-fluid">
-          <div className="hd text-center">
-            <span className='title-bg'>RESUME</span>
-            <h1>ABOUT <span className='text-common'>ME</span></h1>
+          <div className="hd text-center w-100">
+            <h1 className='pageTitle'>ABOUT <span className='text-common'>ME</span></h1>
           </div>
           {/* personal information section starts here */}
           <div className="row">
@@ -206,7 +205,6 @@ const About = () => {
                 <div className="col-sm-6">
                   <Experience company={' Bachelor’s Degree'} date={'2022'} title={'COMPUTER SCIENCE'}
                     icon={<FaCode />} location={"Lebanese University, Beirut, Lebanon"}>
-
                   </Experience>
                 </div>
                 <div className='col-sm-6'>
@@ -220,19 +218,21 @@ const About = () => {
                     <span className='text-common'> 6-Databases for Nodejs</span>
                   </Experience>
                 </div>
-                <div className='col-sm-6 '>
-                  <Experience company={'Mosh Hamedani'} date={'2023'} title={'REACT JS - NODE JS'}
-                    icon={<VerifiedIcon />} location={"Certifications"}>
-                    Node.js Course - <span className='text-common'>(15hrs)</span> <br />
-                    Mastering React Course - <span className='text-common'>(13hrs) </span>
-                  </Experience>
-                </div>
-                <div className='col-sm-6 '>
-                  <Experience company={'Udemy'} date={'2023 - 2024'} title={'WORDPRESS - FLUTTER'}
-                    icon={<SiUdemy />} location={"Certifications"}>
-                    Become a WordPress Developer: Unlocking Power With Code - <span className='text-common'>By Brad Schiff (40+ hrs)</span> <br />
-                    Flutter & Dart - The Complete Guide [2024 Edition] - <span className='text-common'>By Maximilian Schwarzmüller (30 hrs)</span> <br />
-                  </Experience>
+                <div className="row mt-5">
+                  <div className='col-sm-6 '>
+                    <Experience company={'Mosh Hamedani'} date={'2023'} title={'REACT JS - NODE JS'}
+                      icon={<VerifiedIcon />} location={"Certifications"}>
+                      Node.js Course - <span className='text-common'>(15hrs)</span> <br />
+                      Mastering React Course - <span className='text-common'>(13hrs) </span>
+                    </Experience>
+                  </div>
+                  <div className='col-sm-6 '>
+                    <Experience company={'Udemy'} date={'2023 - 2024'} title={'WORDPRESS - FLUTTER'}
+                      icon={<SiUdemy />} location={"Certifications"}>
+                      Become a WordPress Developer: Unlocking Power With Code - <span className='text-common'>By Brad Schiff (40+ hrs)</span> <br />
+                      Flutter & Dart - The Complete Guide [2024 Edition] - <span className='text-common'>By Maximilian Schwarzmüller (30 hrs)</span> <br />
+                    </Experience>
+                  </div>
                 </div>
               </div>
 

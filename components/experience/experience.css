@@ -33,12 +33,12 @@ body.light .description {
 }
 
 body.dark .location {
-    color: #fa5b0f;
+    color: var(--dark-color);
 }
 
 body.light .location {
 
-    color: #FFCC9F;
+    color: var(--light-color);
 }
 
 .experienceSection .experience .location {
@@ -65,16 +65,16 @@ body.light .location {
 }
 
 body.dark .experienceSection .experience .icon {
-    background-color: #fa5b0f;
+    background-color: var(--dark-color);
 }
 
 body.light .experienceSection .experience .icon {
-    background-color: #FFCC9F;
+    background-color: var(--light-color);
 }
 
 .experienceSection .experience .icon {
     position: relative;
-    background-color: #fa5b0f;
+    background-color: var(--dark-color);
     border-radius: 50%;
     height: 50px;
     width: 50px;

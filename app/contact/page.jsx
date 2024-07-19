@@ -29,8 +29,8 @@ const Contact = () => {
     <section className="contactPage">
       <div className="container-fluid">
         <div className="hd text-center">
-          <span className='title-bg'>CONTACT</span>
-          <h1>GET IN <span className='text-common'>TOUCH</span></h1>
+          {/* <span className='title-bg'>CONTACT</span> */}
+          <h1 className='pageTitle '>GET IN <span className='text-common'>TOUCH</span></h1>
         </div>
         <div className='row'>
           <div className="col-sm-4">

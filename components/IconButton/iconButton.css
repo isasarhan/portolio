@@ -3,25 +3,24 @@ body.dark .button-common {
 }
 
 body.light .button-common {
-
   color: #000;
 }
 
 body.dark .button-common {
-  border: 1px solid #fa5b0f;
+  border: 1px solid var(--dark-color);
 }
 
 body.light .button-common {
 
-  border: 1px solid #FFCC9F;
+  border: 1px solid var(--light-color);
 }
 
 body.dark .button-common .icon {
-  background: #fa5b0f;
+  background: var(--dark-color);
 }
 
 body.light .button-common .icon {
-  background: #FFCC9F;
+  background: var(--light-color);
 
 }
 
@@ -46,11 +45,11 @@ body.light .button-common .icon {
 }
 
 body.dark .icon-btn::after {
-  background: #fa5b0f;
+  background: var(--dark-color);
 }
 
 body.light .icon-btn::after {
-  background: #FFCC9F;
+  background: var(--light-color);
 }
 
 .icon-btn::after {
@@ -71,7 +70,7 @@ body.light .icon-btn::after {
 .button-common .icon {
   border-radius: 50%;
   padding: 12px;
-  background: #fa5b0f;
+  background: var(--dark-color);
   position: absolute;
   right: 0%;
 }
