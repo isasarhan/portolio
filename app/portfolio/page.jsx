@@ -55,7 +55,7 @@ const Portfolio = () => {
               <Image src={'/images/projects/portfolio.jpg'} width={300} height={200} />
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
-                  <IconButton><Link href={'https://portolio-zeta.vercel.app/'}> <FaEye /></Link></IconButton>
+                  <IconButton><Link href={'https://issa-sarhan-zeta.vercel.app/'}> <FaEye /></Link></IconButton>
                   <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><FaInfoCircle /></IconButton>
                 </div>
@@ -66,7 +66,7 @@ const Portfolio = () => {
               <Image src={'/images/projects/management-system.jpg'} width={300} height={200} />
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
-                  <IconButton><Link href={'https://frontend-goldlab.vercel.app/auth/login'}> <FaEye /></Link></IconButton>
+                  <IconButton><Link href={'https://dashboard.serhan-jewelry.com/'}> <FaEye /></Link></IconButton>
                   <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><Link href={'/portfolio/projects/2'}><FaInfoCircle /></Link></IconButton>
                 </div>
@@ -80,7 +80,7 @@ const Portfolio = () => {
               <Image src={'/images/projects/jewelry.jpg'} width={300} height={200} />
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
-                  <IconButton><Link href={'https://gold-lab-backend.onrender.com'}> <FaEye /></Link></IconButton>
+                  <IconButton><Link href={'https://api.serhan-jewelry.com/'}> <FaEye /></Link></IconButton>
                   <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><Link href={'/portfolio/projects/3'}><FaInfoCircle /></Link></IconButton>
                 </div>
@@ -91,7 +91,7 @@ const Portfolio = () => {
               <Image src={'/images/projects/ecommerce-api.jpg'} width={300} height={200} />
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
-                  <IconButton><Link href={'https://ecommerceapi-xu9h.onrender.com'}> <FaEye /></Link></IconButton>
+                  <IconButton><Link href={'https://ecommerceapi-xu9h.onrender.com/'}> <FaEye /></Link></IconButton>
                   <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><Link href={'/portfolio/projects/4'}><FaInfoCircle /></Link></IconButton>
                 </div>
