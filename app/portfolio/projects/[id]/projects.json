@@ -73,13 +73,12 @@
     "url": "",
     "repository": "",
     "status": "production",
-    "featuredImg": "/images/projects/management-system.jpg",
+    "featuredImg": "/images/projects/e-commerce-1.jpg",
     "images": [
-      "/images/projects/management-system.jpg",
-      "/images/projects/management-system-2.jpg",
-      "/images/projects/management-system-3.jpg",
-      "/images/projects/management-system-4.jpg",
-      "/images/projects/management-system-5.jpg"
+      "/images/projects/e-commerce-1.jpg",
+      "/images/projects/e-commerce-2.jpg",
+      "/images/projects/e-commerce-3.jpg",
+      "/images/projects/e-commerce-4.jpg"
     ]
   }
 ]
