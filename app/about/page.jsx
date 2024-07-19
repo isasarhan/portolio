@@ -17,6 +17,8 @@ import { FaReact } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
+import { FaHackerrank } from "react-icons/fa";
+import { GrCertificate } from "react-icons/gr";
 
 const About = () => {
   return (
@@ -200,11 +202,22 @@ const About = () => {
             </div>
             <hr className="dotted" />
             <div className='mt-3 mb-5'>
-              <h1 className='text-color text-center mb-5 text-uppercase'>EDUCATION & Certifications</h1>
+              <h1 className='text-color text-center mb-5 text-uppercase'>Education & Certifications</h1>
               <div className="row">
                 <div className="col-sm-6">
                   <Experience company={' Bachelor’s Degree'} date={'2022'} title={'COMPUTER SCIENCE'}
-                    icon={<FaCode />} location={"Lebanese University, Beirut, Lebanon"}>
+                    icon={<GrCertificate />} location={"Lebanese University, Beirut, Lebanon"}>
+                  </Experience>
+                </div>
+                <div className="col-sm-6">
+                  <Experience company={'Hackerrank'} date={'2024'} title={'REACT JS - NODE JS'}
+                    icon={<FaHackerrank />} location={"Certifications"}>
+                      <ul className='list-unstyled m-0 p-0'>
+                        <li className='p-0 m-0'>Frontend Developer (REACT) </li>
+                        <li className='p-0 m-0'>React (Basic) </li>
+                        <li className='p-0 m-0'> Node (Basic) </li>
+                     </ul>
+                    
                   </Experience>
                 </div>
                 <div className='col-sm-6'>
@@ -212,34 +225,32 @@ const About = () => {
                     icon={<FaLinkedin />} location={"Certifications"}>
                     1-Building RESTful APIS node & express /
                     <span className='text-common'> 2-Advanced Express / </span>
-                    3-Advanced Nodejs /
+                    3-Advanced Nodejs <br />
                     <span className='text-common'> 4-NodeJs Design Patterns / </span>
                     5-Building a website with node & express /
                     <span className='text-common'> 6-Databases for Nodejs</span>
                   </Experience>
                 </div>
-                <div className="row mt-5">
-                  <div className='col-sm-6 '>
-                    <Experience company={'Mosh Hamedani'} date={'2023'} title={'REACT JS - NODE JS'}
-                      icon={<VerifiedIcon />} location={"Certifications"}>
-                      Node.js Course - <span className='text-common'>(15hrs)</span> <br />
-                      Mastering React Course - <span className='text-common'>(13hrs) </span>
-                    </Experience>
-                  </div>
-                  <div className='col-sm-6 '>
-                    <Experience company={'Udemy'} date={'2023 - 2024'} title={'WORDPRESS - FLUTTER'}
-                      icon={<SiUdemy />} location={"Certifications"}>
-                      Become a WordPress Developer: Unlocking Power With Code - <span className='text-common'>By Brad Schiff (40+ hrs)</span> <br />
-                      Flutter & Dart - The Complete Guide [2024 Edition] - <span className='text-common'>By Maximilian Schwarzmüller (30 hrs)</span> <br />
-                    </Experience>
-                  </div>
+
+                <div className='col-sm-6 '>
+                  <Experience company={'Mosh Hamedani'} date={'2023'} title={'REACT JS - NODE JS'}
+                    icon={<VerifiedIcon />} location={"Certifications"}>
+                    Node.js Course - <span className='text-common'>(15hrs)</span> <br />
+                    Mastering React Course - <span className='text-common'>(13hrs) </span>
+                  </Experience>
+                </div>
+                <div className='col-sm-6 '>
+                  <Experience company={'Udemy'} date={'2023 - 2024'} title={'WORDPRESS - FLUTTER'}
+                    icon={<SiUdemy />} location={"Certifications"}>
+                    Become a WordPress Developer: Unlocking Power With Code - <span className='text-common'>By Brad Schiff (40+ hrs)</span> <br />
+                    Flutter & Dart - The Complete Guide [2024 Edition] - <span className='text-common'>By Maximilian Schwarzmüller (30 hrs)</span> <br />
+                  </Experience>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-      </section>
+      </section >
     </>
   )
 }
