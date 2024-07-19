@@ -1,0 +1,6 @@
+body.dark .toast{
+    background: var(--dark-color);
+}
+body.dark  .toast-header{
+    background: var(--dark-text);
+}

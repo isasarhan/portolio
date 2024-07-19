@@ -14,10 +14,10 @@ const Portfolio = () => {
   const [showToast, setShowToast] = useState(false)
 
   const toggleToast = () => {
-    setShowToast(true)
+    setShowToast(prev => !prev)
     setTimeout(() => {
-      setShowToast(prev => !prev)
-    }, 3000)
+      setShowToast(prev => false)
+    }, 2000)
   }
   return (
     <>
@@ -45,7 +45,7 @@ const Portfolio = () => {
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center '>
                   <IconButton><Link href={'https://ecommerce-ui-hv4l.vercel.app/'} > <FaEye /></Link></IconButton>
-                  <IconButton><Link href={'https://github.com/isasarhan/ecommerce-ui'}> <FaGithub /></Link></IconButton>
+                  <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><Link href={'/portfolio/projects/1'}><FaInfoCircle /></Link></IconButton>
                 </div>
                 <h4 className='position-absolute'>Ecommerce Store UI</h4>
@@ -56,7 +56,7 @@ const Portfolio = () => {
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
                   <IconButton><Link href={'https://portolio-zeta.vercel.app/'}> <FaEye /></Link></IconButton>
-                  <IconButton><Link href={'https://github.com/isasarhan/portolio'}> <FaGithub /></Link></IconButton>
+                  <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><FaInfoCircle /></IconButton>
                 </div>
                 <h4 className='position-absolute'>Personal Portfolio</h4>
@@ -67,7 +67,7 @@ const Portfolio = () => {
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
                   <IconButton><Link href={'https://frontend-goldlab.vercel.app/auth/login'}> <FaEye /></Link></IconButton>
-                  <IconButton><Link href={'https://github.com/isasarhan/frontend-goldlab'}> <FaGithub /></Link></IconButton>
+                  <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><Link href={'/portfolio/projects/2'}><FaInfoCircle /></Link></IconButton>
                 </div>
                 <h4 className='position-absolute'>Jewelry Factory Mangement System UI</h4>
@@ -81,7 +81,7 @@ const Portfolio = () => {
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
                   <IconButton><Link href={'https://gold-lab-backend.onrender.com'}> <FaEye /></Link></IconButton>
-                  <IconButton><Link href={'https://github.com/isasarhan/backend-goldlab'}> <FaGithub /></Link></IconButton>
+                  <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><Link href={'/portfolio/projects/3'}><FaInfoCircle /></Link></IconButton>
                 </div>
                 <h4 className='position-absolute'>Jewelry Factory Mangement System API</h4>
@@ -92,13 +92,13 @@ const Portfolio = () => {
               <div className="overlay d-flex align-items-center justify-content-center ">
                 <div className='d-flex align-items-center'>
                   <IconButton><Link href={'https://ecommerceapi-xu9h.onrender.com'}> <FaEye /></Link></IconButton>
-                  <IconButton><Link href={'https://github.com/isasarhan/ecommerceapi'}> <FaGithub /></Link></IconButton>
+                  <IconButton onClick={() => { toggleToast() }}> <FaGithub /></IconButton>
                   <IconButton><Link href={'/portfolio/projects/4'}><FaInfoCircle /></Link></IconButton>
                 </div>
                 <h4 className='position-absolute'>Ecommerce Store API</h4>
               </div>
             </div>
-            <Toast message={"please request access"} title={"WARNING"} show={showToast} icon={<TiWarning className='text-danger'/>}/>
+            <Toast message={"please request access"} title={"WARNING"} show={showToast} icon={<TiWarning className='text-danger'/>} handleClose={toggleToast}/>
           </div>
         </div>
       </section>
