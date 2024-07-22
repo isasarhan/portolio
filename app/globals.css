@@ -1,20 +1,35 @@
 * {
   margin: 0%;
   padding: 0%;
+
 }
+
 :root {
-  --dark-color:#07679D;
+  --dark-color: #07679D;
   --dark-background: #090909;
   --dark-text: #fff;
   --light-color: #3394cc;
   --light-text: #000;
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/bg-future.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.2; /* Set the opacity to 0.5 */
+  z-index: -1; /* Ensure the overlay stays behind the content */
+}
 
 body {
   font-family: 'Raleway', 'san-serif';
   transition: all 0.3s ease-in-out;
+
 }
 
 body.light .text-color {
@@ -22,8 +37,9 @@ body.light .text-color {
 }
 
 body.dark .card {
-  background:var(--dark-background);
+  background: var(--dark-background);
 }
+
 body.dark .text-color {
   color: white !important;
 }
@@ -34,7 +50,7 @@ body.light {
 }
 
 body.dark {
-  background:var(--dark-background);
+  background: var(--dark-background);
   color: white !important;
 }
 
@@ -49,7 +65,7 @@ hr.dotted {
 
 .homePage {
   width: 100%;
-  padding:  0px 35px;
+  padding: 0px 35px;
   height: 100vh;
   position: relative;
   overflow: hidden;
@@ -161,9 +177,11 @@ body.dark .hd .title-bg {
 body.light .hd .title-bg {
   color: #000;
 }
-.hd .pageTitle{
+
+.hd .pageTitle {
   font-size: 90px;
 }
+
 .hd .title-bg {
 
   opacity: 0.3;
@@ -190,9 +208,10 @@ body.light .hd .title-bg {
     position: relative;
     top: 0px;
   } */
-  .hd .pageTitle{
+  .hd .pageTitle {
     font-size: 50px;
   }
+
   .homePage {
     overflow: visible;
     padding: 35px 0px;
