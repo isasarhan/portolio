@@ -22,8 +22,8 @@ body::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  opacity: 0.2; /* Set the opacity to 0.5 */
-  z-index: -1; /* Ensure the overlay stays behind the content */
+  opacity: 0.25; /* Set the opacity to 0.5 */
+  z-index: -10; /* Ensure the overlay stays behind the content */
 }
 
 body {
