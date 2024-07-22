@@ -272,3 +272,17 @@ body.light .hd .title-bg {
 
   }
 }
+@media (max-width:768px){
+  body::before {
+   
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+   
+  }
+  .homePage .wrapper {
+    height: 100%;
+    padding: 45px 0px;
+  }
+
+}
